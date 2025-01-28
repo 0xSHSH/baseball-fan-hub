@@ -6,6 +6,61 @@ A cutting-edge baseball analytics and fan engagement platform leveraging advance
 
 Baseball Fan Hub revolutionizes fan engagement by combining real-time analytics, AI-powered video analysis, and interactive features to create an immersive baseball experience. Our platform processes game footage using Google Cloud AI services to deliver personalized highlights and insights.
 
+## Screenshots
+
+### 📊 Live Dashboard
+![Live Dashboard](screenshots/dashboard.png)
+- Real-time game tracking
+- Interactive statistical visualizations
+- Team performance comparisons
+- Advanced metrics analysis
+
+### 🎬 AI-Powered Highlights
+![Highlight Generator](screenshots/highlights.png)
+- Video analysis powered by Google Cloud AI
+- Automated key moment detection
+- Personalized highlight reels
+- Multi-language support
+
+### 🏆 Fan Achievement System
+![Achievement System](screenshots/achievements.png)
+- Interactive badge system
+- Daily challenges
+- Progress tracking
+- Team-specific rewards
+
+## Screenshots Directory Setup
+
+Create a `screenshots` directory in your repository and add these screenshots:
+
+1. Dashboard Screenshot (`screenshots/dashboard.png`):
+   - Navigate to the Live Dashboard tab
+   - Take a full-page screenshot showing the live games, statistics, and team comparisons
+   - Recommended resolution: 1920x1080
+
+2. Highlights Screenshot (`screenshots/highlights.png`):
+   - Go to the Highlights tab
+   - Capture the AI-powered highlight generation interface
+   - Include any sample analysis results
+   - Recommended resolution: 1920x1080
+
+3. Achievements Screenshot (`screenshots/achievements.png`):
+   - Open the Fan Zone tab
+   - Show the badges, progress tracking, and daily challenges
+   - Include some earned achievements
+   - Recommended resolution: 1920x1080
+
+## Taking Screenshots in Replit
+1. Open your app in the Replit webview
+2. Use browser's developer tools (F12)
+3. Toggle device toolbar (Ctrl+Shift+M)
+4. Set resolution to 1920x1080
+5. Take a full-page screenshot
+6. Save to the `screenshots` directory in your local clone
+
+*Note: These screenshots are crucial for the project documentation and submission. They should showcase the app's key features and modern design.*
+
+
 ## Key Features
 
 ### 🎬 AI-Powered Highlight Generation
@@ -31,7 +86,6 @@ Baseball Fan Hub revolutionizes fan engagement by combining real-time analytics,
 - AI-powered play predictions
 - Instant notifications for key moments
 - Comprehensive news feed
-
 
 ## Technologies Used
 
@@ -61,7 +115,6 @@ Baseball Fan Hub revolutionizes fan engagement by combining real-time analytics,
 - Dark theme optimization
 - Interactive elements and animations
 - Progress tracking visualizations
-
 
 ## Data Sources
 The current implementation uses simulated data for demonstration purposes, including:
@@ -126,9 +179,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Getting Started
 
+### Local Development
+
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/baseball-fan-hub.git
+git clone https://github.com/0xSHSH/baseball-fan-hub.git
 cd baseball-fan-hub
 ```
 
@@ -145,6 +200,26 @@ export GOOGLE_CLOUD_API_KEY=your_api_key
 4. Run the application:
 ```bash
 streamlit run main.py
+```
+
+### Copying Files from Replit to Local Clone
+
+1. From Replit:
+   - Click on the three dots next to each file
+   - Select "Download" to save each file locally
+   - Or use the "Download as zip" option from the three-dot menu in the files panel
+
+2. To your local repository:
+   - Extract the downloaded files
+   - Copy them to your local clone of the repository
+   - Ensure you maintain the same directory structure
+
+3. Verify the transfer:
+```bash
+git status  # Check which files have been added/modified
+git add .   # Stage all changes
+git commit -m "Initial code transfer from Replit"
+git push origin main  # Push to GitHub
 ```
 
 ## Development Guidelines
