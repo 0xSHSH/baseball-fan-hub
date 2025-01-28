@@ -9,8 +9,8 @@ from visualizations import (
 from fan_engagement import FanEngagementSystem
 from news_feed import NewsFeeder
 from styles import apply_custom_styles, create_stat_card
-from highlight_generator import HighlightGenerator # Added import statement
-from outfit_recommender import OutfitRecommender # Add this import at the top with other imports
+from highlight_generator import HighlightGenerator
+from outfit_recommender import OutfitRecommender
 
 # Page configuration
 st.set_page_config(
@@ -24,8 +24,8 @@ apply_custom_styles()
 data_processor = MLBDataProcessor()
 fan_system = FanEngagementSystem()
 news_feeder = NewsFeeder()
-highlight_gen = HighlightGenerator() # Added highlight generator initialization
-outfit_recommender = OutfitRecommender() # Add this line
+highlight_gen = HighlightGenerator()
+outfit_recommender = OutfitRecommender()
 
 # Header
 st.title("⚾ Baseball Fan Hub")
@@ -42,14 +42,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Top navigation with improved styling
-tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([ # Added tab6 for highlights and tab7 for outfit recommender
+tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
     "🏟️ Live Dashboard", 
     "👤 Player Stories", 
     "📊 Video Analysis",
     "🏆 Fan Zone",
     "📰 News Feed",
-    "🎬 Highlights", #Added comma here
-    "👕 Outfit Recommender"  # New tab
+    "🎬 Highlights",
+    "👕 Outfit Recommender"
 ])
 
 with tab1:
@@ -319,7 +319,7 @@ with tab5:
             </div>
         """, unsafe_allow_html=True)
 
-with tab6: #New tab content added
+with tab6:
     highlight_gen.render_highlight_ui()
 
 with tab7:
