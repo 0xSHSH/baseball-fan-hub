@@ -48,7 +48,7 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([ # Added tab6 for highlights
     "📊 Video Analysis",
     "🏆 Fan Zone",
     "📰 News Feed",
-    "🎬 Highlights" #New tab added
+    "🎬 Highlights", #Added comma here
     "👕 Outfit Recommender"  # New tab
 ])
 

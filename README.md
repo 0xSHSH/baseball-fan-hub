@@ -50,17 +50,6 @@ Create a `screenshots` directory in your repository and add these screenshots:
    - Include some earned achievements
    - Recommended resolution: 1920x1080
 
-## Taking Screenshots in Replit
-1. Open your app in the Replit webview
-2. Use browser's developer tools (F12)
-3. Toggle device toolbar (Ctrl+Shift+M)
-4. Set resolution to 1920x1080
-5. Take a full-page screenshot
-6. Save to the `screenshots` directory in your local clone
-
-*Note: These screenshots are crucial for the project documentation and submission. They should showcase the app's key features and modern design.*
-
-
 ## Key Features
 
 ### 🎬 AI-Powered Highlight Generation
@@ -183,7 +172,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/0xSHSH/baseball-fan-hub.git
+git clone https://github.com/[your-username]/baseball-fan-hub.git
 cd baseball-fan-hub
 ```
 
@@ -200,26 +189,6 @@ export GOOGLE_CLOUD_API_KEY=your_api_key
 4. Run the application:
 ```bash
 streamlit run main.py
-```
-
-### Copying Files from Replit to Local Clone
-
-1. From Replit:
-   - Click on the three dots next to each file
-   - Select "Download" to save each file locally
-   - Or use the "Download as zip" option from the three-dot menu in the files panel
-
-2. To your local repository:
-   - Extract the downloaded files
-   - Copy them to your local clone of the repository
-   - Ensure you maintain the same directory structure
-
-3. Verify the transfer:
-```bash
-git status  # Check which files have been added/modified
-git add .   # Stage all changes
-git commit -m "Initial code transfer from Replit"
-git push origin main  # Push to GitHub
 ```
 
 ## Development Guidelines
