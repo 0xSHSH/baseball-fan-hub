@@ -1,170 +1,84 @@
 # ⚾ Baseball Fan Hub
 
-A cutting-edge baseball analytics and fan engagement platform leveraging advanced AI technologies to transform the way fans experience the game.
+A cutting-edge baseball fan engagement platform that transforms MLB data into immersive, interactive experiences for baseball enthusiasts. The application leverages advanced AI technologies and cloud computing to provide deep insights, personalized content, and innovative fan interaction tools.
 
-## Project Overview
-
-Baseball Fan Hub revolutionizes fan engagement by combining real-time analytics, AI-powered video analysis, and interactive features to create an immersive baseball experience. Our platform processes game footage using Google Cloud AI services to deliver personalized highlights and insights.
-
-## Screenshots
-
-### 📊 Live Dashboard
-![Live Dashboard](screenshots/dashboard.png)
-- Real-time game tracking
-- Interactive statistical visualizations
-- Team performance comparisons
-- Advanced metrics analysis
-
-### 🎬 AI-Powered Highlights
-![Highlight Generator](screenshots/highlights.png)
-- Video analysis powered by Google Cloud AI
-- Automated key moment detection
-- Personalized highlight reels
-- Multi-language support
-
-### 🏆 Fan Achievement System
-![Achievement System](screenshots/achievements.png)
-- Interactive badge system
-- Daily challenges
-- Progress tracking
-- Team-specific rewards
-
-## Screenshots Directory Setup
-
-Create a `screenshots` directory in your repository and add these screenshots:
-
-1. Dashboard Screenshot (`screenshots/dashboard.png`):
-   - Navigate to the Live Dashboard tab
-   - Take a full-page screenshot showing the live games, statistics, and team comparisons
-   - Recommended resolution: 1920x1080
-
-2. Highlights Screenshot (`screenshots/highlights.png`):
-   - Go to the Highlights tab
-   - Capture the AI-powered highlight generation interface
-   - Include any sample analysis results
-   - Recommended resolution: 1920x1080
-
-3. Achievements Screenshot (`screenshots/achievements.png`):
-   - Open the Fan Zone tab
-   - Show the badges, progress tracking, and daily challenges
-   - Include some earned achievements
-   - Recommended resolution: 1920x1080
-
-## Key Features
+## Features and Functionality
 
 ### 🎬 AI-Powered Highlight Generation
 - Real-time game footage analysis using Google Cloud Video Intelligence
-- Automated detection of key plays and moments
+- Automated key play detection and highlight creation
 - Personalized highlight reels based on user preferences
-- Multi-language support for global accessibility
 
-### 📊 Advanced Analytics Dashboard
-- Real-time statistical analysis
-- Interactive visualizations using Plotly
+### 📊 Interactive Analytics Dashboard
+- Real-time statistical analysis and visualizations
 - Team performance comparisons
 - Player achievement tracking
+- Advanced metrics visualization using Plotly
 
 ### 🏆 Fan Engagement System
 - Achievement-based progression system
+- Interactive badge collection
 - Daily challenges and rewards
-- Personalized team-specific content
-- Social sharing capabilities
+- Team-specific content personalization
 
-### 📱 Live Updates
-- Real-time game tracking
-- AI-powered play predictions
-- Instant notifications for key moments
-- Comprehensive news feed
+### 👕 Game Day Outfit Recommender
+- Team color-based outfit suggestions
+- Weather-adaptive recommendations
+- Multiple style options (casual/premium)
+- Personalized styling tips
 
 ## Technologies Used
 
 ### Cloud Services
-- Google Cloud Video Intelligence API for game footage analysis
-- Google Cloud AI Platform for predictive analytics
-- Google Cloud BigQuery for data warehousing
+- Google Cloud Video Intelligence API
+- Google Cloud AI Platform
+- Google Cloud BigQuery
 
 ### Frontend
 - Streamlit for interactive web interface
 - Plotly for dynamic visualizations
 - Custom CSS for responsive design
 
-### Backend
-- Python for core logic and data processing
+### Data Processing
+- Python for core logic
 - NumPy and Pandas for statistical analysis
 - Custom AI models for play prediction
 
-### Data Processing & Analysis
-- **Pandas**: Data manipulation and analysis
-- **NumPy**: Numerical computations
-- **Python**: Core programming language
-- **Google Cloud BigQuery**: Data warehousing and analysis (planned integration)
-
-### Design & UX
-- Custom UI components with responsive design
-- Dark theme optimization
-- Interactive elements and animations
-- Progress tracking visualizations
-
 ## Data Sources
-The current implementation uses simulated data for demonstration purposes, including:
+The application currently uses simulated data for demonstration, including:
 - Player statistics (batting averages, home runs, RBIs)
 - Team performance metrics
 - Game scores and schedules
 - Video analysis metrics
-- News updates
 
-Future integrations planned:
-- MLB™ official data feeds
-- Google Cloud BigQuery MLB™ public datasets
-- Advanced video analysis using Google Cloud AI
+## Key Findings and Learnings
+- Successfully implemented complex data visualizations using Plotly
+- Created an engaging achievement system that drives user interaction
+- Developed a flexible recommendation system for game day outfits
+- Implemented real-time statistical analysis and data processing
+- Created an intuitive user interface using Streamlit's components
 
-## Project Implementation Details
+## Screenshots
 
-### Architecture
-The project follows a modular architecture with separate components for:
-- Data processing (`data_processor.py`)
-- Visualizations (`visualizations.py`)
-- Fan engagement system (`fan_engagement.py`)
-- News feed management (`news_feed.py`)
-- Styling and theming (`styles.py`)
+### 📊 Live Dashboard
+![Live Dashboard](screenshots/dashboard.png)
+Real-time game tracking and statistical visualizations
 
-### Achievement System Implementation
-The achievement system includes:
-- Multiple badge categories (Rookie, All-Star, MVP, etc.)
-- Progress tracking for various activities
-- Dynamic challenge generation
-- Personalized team-specific achievements
-- Social engagement rewards
+### 🏆 Fan Achievement System
+![Achievement System](screenshots/achievements.png)
+Interactive badge system and progress tracking
 
-## Learnings and Findings
-
-### Technical Insights
-1. **Streamlit Integration**: Successfully implemented a complex web application using Streamlit's components while maintaining performance and responsiveness.
-2. **Data Visualization**: Created interactive charts and graphs that effectively communicate baseball statistics.
-3. **State Management**: Implemented session-based state management for the fan engagement system.
-4. **Achievement System**: Developed a flexible and extensible badge system that encourages user participation.
-
-### User Experience
-1. **Theme Design**: Developed a cohesive dark theme that reduces eye strain and enhances readability.
-2. **Navigation**: Implemented an intuitive tabbed interface for easy access to different features.
-3. **Engagement Systems**: Created an engaging points and badge system that encourages user participation.
-4. **Progress Tracking**: Implemented visual progress indicators for achievement tracking.
-
-### Future Improvements
-1. Integration with real MLB™ data sources
-2. Implementation of user authentication
-3. Addition of predictive analytics for player performance
-4. Enhanced social features for fan interaction
-5. Mobile-optimized interface improvements
-6. Integration with Google Cloud AI services for advanced analytics
+### 👕 Outfit Recommender
+![Outfit Recommender](screenshots/outfit.png)
+Personalized game day outfit recommendations
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Repository
+[GitHub Repository Link]
 
-[Link to repository will be added]
+*Note: This project is not affiliated with or endorsed by Major League Baseball (MLB™).*
 
 ## Getting Started
 
@@ -189,19 +103,3 @@ export GOOGLE_CLOUD_API_KEY=your_api_key
 4. Run the application:
 ```bash
 streamlit run main.py
-```
-
-## Development Guidelines
-
-- Follow PEP 8 style guidelines
-- Write unit tests for new features
-- Document all functions and classes
-- Use type hints for better code clarity
-
-## Acknowledgments
-
-- Google Cloud Platform for AI and analytics capabilities
-- The baseball analytics community for inspiration
-- Open-source contributors and maintainers
-
-*Note: This project is not affiliated with or endorsed by Major League Baseball (MLB™).*
