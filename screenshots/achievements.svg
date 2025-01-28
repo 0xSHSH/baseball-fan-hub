@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+    <!-- Dark Background -->
+    <rect width="100%" height="100%" fill="#121212"/>
+    
+    <!-- Header -->
+    <text x="50" y="80" font-family="Arial" font-size="40" fill="#9C27B0">🏆 Fan Achievement System</text>
+    
+    <!-- Achievement Cards -->
+    <rect x="50" y="120" width="300" height="200" rx="10" fill="#1E1E1E"/>
+    <text x="70" y="160" font-family="Arial" font-size="24" fill="#FFFFFF">MVP Badge</text>
+    <text x="70" y="200" font-family="Arial" font-size="40">🏆</text>
+    
+    <rect x="380" y="120" width="300" height="200" rx="10" fill="#1E1E1E"/>
+    <text x="400" y="160" font-family="Arial" font-size="24" fill="#FFFFFF">Super Fan</text>
+    <text x="400" y="200" font-family="Arial" font-size="40">⭐</text>
+    
+    <!-- Progress Bars -->
+    <rect x="50" y="350" width="630" height="150" rx="10" fill="#1E1E1E"/>
+    <text x="70" y="390" font-family="Arial" font-size="20" fill="#FFFFFF">Video Analysis Progress</text>
+    <rect x="70" y="410" width="590" height="20" rx="5" fill="#363636"/>
+    <rect x="70" y="410" width="295" height="20" rx="5" fill="#9C27B0"/>
+    
+    <!-- Daily Challenge -->
+    <rect x="50" y="530" width="630" height="150" rx="10" fill="#1E1E1E"/>
+    <text x="70" y="570" font-family="Arial" font-size="24" fill="#FFFFFF">Daily Challenge</text>
+    <text x="70" y="610" font-family="Arial" font-size="18" fill="#E91E63">Watch 3 game highlights (2/3)</text>
+</svg>
