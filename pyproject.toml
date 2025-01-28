@@ -1,0 +1,15 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "google-cloud-aiplatform>=1.78.0",
+    "google-cloud-bigquery>=3.29.0",
+    "google-cloud-videointelligence>=2.15.0",
+    "numpy>=2.2.2",
+    "pandas>=2.2.3",
+    "plotly>=5.24.1",
+    "sift-stack-py>=0.3.3",
+    "streamlit>=1.41.1",
+]
