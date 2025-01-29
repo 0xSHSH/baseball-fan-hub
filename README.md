@@ -61,7 +61,7 @@ The application currently uses simulated data for demonstration, including:
 ## Screenshots
 
 ### 📊 Live Dashboard
-![Live Dashboard](screenshots/dashboard.png)
+![Live Dashboard] ![image alt](https://github.com/0xSHSH/baseball-fan-hub/blob/6e4ef30f036573688afccf38243816665524b47c/LiveDashboard%20.png)
 Real-time game tracking and statistical visualizations
 
 ### 🏆 Fan Achievement System
