@@ -65,7 +65,7 @@ The application currently uses simulated data for demonstration, including:
 Real-time game tracking and statistical visualizations
 
 ### 🏆 Fan Achievement System
-![Achievement System](screenshots/achievements.png)
+![Achievement System] ![image alt](https://github.com/0xSHSH/baseball-fan-hub/blob/48c6b9659375e5e547be68d31b05e25bef2d8ce6/screenshotsachievement.png)
 Interactive badge system and progress tracking
 
 ### 👕 Outfit Recommender
