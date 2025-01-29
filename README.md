@@ -69,7 +69,7 @@ Real-time game tracking and statistical visualizations
 Interactive badge system and progress tracking
 
 ### 👕 Outfit Recommender
-![Outfit Recommender](screenshots/outfit.png)
+![Outfit Recommender] ![image alt](https://github.com/0xSHSH/baseball-fan-hub/blob/47205ab71f598c0c58d1c821be689f4a12f8a6f9/screenshotsoutfit.png)
 Personalized game day outfit recommendations
 
 ## License
