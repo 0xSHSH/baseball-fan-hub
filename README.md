@@ -78,7 +78,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Repository
 [GitHub Repository Link]
 
-*Note: This project is not affiliated with or endorsed by Major League Baseball (MLB™).*
+*Note: Major League Baseball (MLB™).*
 
 ## Getting Started
 
