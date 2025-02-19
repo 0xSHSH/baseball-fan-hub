@@ -61,28 +61,16 @@ The application currently uses simulated data for demonstration, including:
 ## Screenshots
 
 ### 📊 Live Dashboard
-![Live Dashboard](screenshots/dashboard.png)
-Real-time game tracking and statistical visualizations
+![Live Dashboard](images/live-dashboard.png)
+Your ultimate destination for real-time baseball stats, player stories, and fan engagement.
 
-### 🏆 Fan Achievement System
-![Achievement System](screenshots/achievements.png)
-Interactive badge system and progress tracking
-
-### 👕 Outfit Recommender
-![Outfit Recommender](screenshots/outfit.png)
-Personalized game day outfit recommendations
-
-### Game Day Outfit Recommender
-![Game Day Outfit Recommender](images/outfit-recommender.png)
-Get personalized outfit recommendations based on your team's colors!
-
-### Fan Zone
+### 🏆 Fan Zone
 ![Fan Zone](images/fan-zone.png)
 Track your achievements, earn badges, and compete with other fans!
 
-### Live Dashboard
-![Live Dashboard](images/live-dashboard.png)
-Your ultimate destination for real-time baseball stats, player stories, and fan engagement.
+### 👕 Game Day Outfit Recommender
+![Game Day Outfit Recommender](images/outfit-recommender.png)
+Get personalized outfit recommendations based on your team's colors!
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -90,7 +78,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Repository
 [GitHub Repository Link]
 
-*Note: This project is not affiliated with or endorsed by Major League Baseball (MLB™).*
+*Note: Major League Baseball (MLB™).*
 
 ## Getting Started
 
@@ -98,7 +86,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[your-username]/baseball-fan-hub.git
+git clone https://github.com/0xSHSH/baseball-fan-hub.git
 cd baseball-fan-hub
 ```
 
@@ -115,4 +103,3 @@ export GOOGLE_CLOUD_API_KEY=your_api_key
 4. Run the application:
 ```bash
 streamlit run main.py
-```
