@@ -72,6 +72,18 @@ Interactive badge system and progress tracking
 ![Outfit Recommender](screenshots/outfit.png)
 Personalized game day outfit recommendations
 
+### Game Day Outfit Recommender
+![Game Day Outfit Recommender](images/outfit-recommender.png)
+Get personalized outfit recommendations based on your team's colors!
+
+### Fan Zone
+![Fan Zone](images/fan-zone.png)
+Track your achievements, earn badges, and compete with other fans!
+
+### Live Dashboard
+![Live Dashboard](images/live-dashboard.png)
+Your ultimate destination for real-time baseball stats, player stories, and fan engagement.
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -103,3 +115,4 @@ export GOOGLE_CLOUD_API_KEY=your_api_key
 4. Run the application:
 ```bash
 streamlit run main.py
+```
