@@ -86,7 +86,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[your-username]/baseball-fan-hub.git
+git clone https://github.com/0xSHSH/baseball-fan-hub.git
 cd baseball-fan-hub
 ```
 
